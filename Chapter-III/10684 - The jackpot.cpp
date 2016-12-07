@@ -15,7 +15,7 @@ int main()
             if(sum > max) max = sum;
             if(sum < 0) sum = 0;
         }
-        (max > 0) ? cout << "The maximum winning streak is " << max << "." << endl : cout << "Losing streak." << endl;
+        (max > 0) ? cout << "The maximum winning streak is " << max << "." << endl : cout << "Losing streak." << endl ;
     }
-    return 0;
+    return 0 ;
 }
