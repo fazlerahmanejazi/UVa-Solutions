@@ -7,7 +7,7 @@ int main()
     int n;
     while(cin >> n && n != 0)
     {
-        int sum = 0, temp, max = 0;
+        int sum = 0, temp, max = -10000;
         for(int i = 0; i < n; i++)
         {
             cin >> temp;
