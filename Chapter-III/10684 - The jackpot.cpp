@@ -11,7 +11,7 @@ int main()
         for(int i = 0; i < n; i++)
         {
             cin >> temp;
-            sum += a;
+            sum += temp;
             if(sum > max) max = sum;
             if(sum < 0) sum = 0;
         }
