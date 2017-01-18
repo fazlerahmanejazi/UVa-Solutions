@@ -20,8 +20,7 @@ int main()
    int n, temp, L ;
    vector<int> seq ;
    int pos ;
-   while(scanf(%d, &temp))
-     seq.push_back(temp) ;
+   while(cin>>temp) seq.push_back(temp) ;
    n=seq.size() ;
    vector<int> last(n, 0) ;
    vector<int> prev(n, -1) ;
@@ -58,11 +57,11 @@ int main()
    vector<int> ans ;
     for (int i = last[L-1]; i >= 0; i = prev[i])
         ans.push_back(seq[i]) ;
-         printf("%s\n", L );
-         printf("-\n",  );
+    cout<< L << endl ;
+    cout<< "-" << endl ;
+    
     for(int i=ans.size()-1 ; i>=0 ; i--)
-      printf("%s\n", ans[i] );
+      cout<< ans[i]<< endl;
 
-
-    return 0 ;
+ return 0 ;
 }
