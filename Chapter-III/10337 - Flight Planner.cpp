@@ -17,7 +17,6 @@ int main()
               cin>> wind[i][j] ;
               dp[i][j]=10000 ;
             }
-
       for(int j=0 ; j<x/100 ; j++) { dp[10][j]=10000 ; wind[10][j]=0 ; }
       dp[0][0]=0 ;
       for(int j=0 ; j<x/100 ; j++)
@@ -30,15 +29,6 @@ int main()
               dp[i][i+j]=min({a,b,c}) ;
             }
         }
-        for(int i=9 ; i>=0 ; i--)
-          {
-            for(int j=0 ; j<x/100 ; j++)
-              {
-                cout<< dp[i][j] << " " ;
-              }
-              cout<< endl ;
-          }
-
       cout<< dp[1][x/100-1]+20-wind[1][x/100-1]   ;
       cout<< endl << endl ;
     }
