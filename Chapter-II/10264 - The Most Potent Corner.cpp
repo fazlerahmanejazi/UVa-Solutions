@@ -3,7 +3,7 @@ using namespace std ;
 
 int main()
   {
-    int n, edges, ans, temp ;
+    int n, edges, ans ;
     while(cin>>n)
       {
         edges=1<<n ;
