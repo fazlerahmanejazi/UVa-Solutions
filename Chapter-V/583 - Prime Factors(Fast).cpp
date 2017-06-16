@@ -21,7 +21,7 @@ using vpii = vector<pair<int, int>> ;
 
 lli n ;
 vlli fac, prime ;
-vb isprime(47000, true) ;
+vb isprime(47001, true) ;
 
 void sieve()
   {
