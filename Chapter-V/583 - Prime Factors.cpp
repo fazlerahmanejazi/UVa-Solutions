@@ -36,7 +36,7 @@ void generate(lli n)
           fac.pb(i) ;
           n/=i ;
         }
-    if(n>2) fac.pb(n) ;
+    if(n!=2) fac.pb(n) ;
   }
 
 int main()
